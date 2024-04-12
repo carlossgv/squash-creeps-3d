@@ -1,5 +1,5 @@
-res://player.gd
-res://mob.gd
-res://player.tscn
-res://main.tscn
 res://mob.tscn
+res://main.gd
+res://main.tscn
+res://player.tscn
+res://music_player.tscn
