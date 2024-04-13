@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713033301
+::res://::1713040418
 default_bus_layout.tres::AudioBusLayout::-1::1712954867::0::1::::<><>::
 default_env.tres::Environment::-1::1712954867::0::1::::<><>::
 icon.png::CompressedTexture2D::2580682762146003654::1712954867::1712954867::1::::<><>::
-main.gd::GDScript::-1::1713027419::0::1::::<>Node<>::
-main.tscn::PackedScene::1389108726307123102::1713024425::0::1::::<><>::uid://xo1fkxo7ct74::::res://player.tscn<>res://main.gd<>uid://bdw75c613sifh::::res://mob.tscn<>uid://csjhwajyq8gsk::::res://fonts/Montserrat-Medium.ttf<>res://score_label.gd
-mob.gd::GDScript::-1::1713026181::0::1::::<>CharacterBody3D<>::
+main.gd::GDScript::-1::1713039203::0::1::::<>Node<>::
+main.tscn::PackedScene::1389108726307123102::1713039193::0::1::::<><>::uid://xo1fkxo7ct74::::res://player.tscn<>res://main.gd<>uid://bdw75c613sifh::::res://mob.tscn<>uid://csjhwajyq8gsk::::res://fonts/Montserrat-Medium.ttf<>res://score_label.gd
+mob.gd::GDScript::-1::1713040368::0::1::::<>CharacterBody3D<>::
 mob.tscn::PackedScene::2644400196937279521::1712963014::0::1::::<><>::uid://ctm5ig0167u6d::::res://art/mob.glb<>res://mob.gd
-music_player.tscn::PackedScene::4637761339666816426::1713024425::0::1::::<><>::uid://cuyjn4hmu2g37::::res://art/House In a Forest Loop.ogg
+music_player.tscn::PackedScene::4637761339666816426::1713039193::0::1::::<><>::uid://cuyjn4hmu2g37::::res://art/House In a Forest Loop.ogg
 player.gd::GDScript::-1::1713033170::0::1::::<>CharacterBody3D<>::
 player.tscn::PackedScene::1644832824455997625::1712963014::0::1::::<><>::uid://c8io27qpx8lym::::res://art/player.glb<>res://player.gd
 score_label.gd::GDScript::-1::1712959923::0::1::::<>Label<>::
