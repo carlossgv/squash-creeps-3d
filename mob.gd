@@ -8,8 +8,10 @@ extends CharacterBody3D
 # Emitted when the player jumped on the mob
 signal squashed
 
+
 func _physics_process(_delta):
 	move_and_slide()
+
 
 # This function will be called from the Main scene.
 func initialize(start_position, player_position):
@@ -30,9 +32,15 @@ func initialize(start_position, player_position):
 
 	$AnimationPlayer.speed_scale = random_speed / min_speed
 
+
+func bar():
+	print("bar")
+
+
 func _on_visible_on_screen_notifier_3d_screen_exited():
 	queue_free()
 
+
 func squash():
 	squashed.emit()
-	queue_free() # Destroy this node
+	queue_free()  # Destroy this node
